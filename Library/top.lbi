@@ -1,0 +1,36 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+a:link {
+    color: #CDCDCD;
+}
+a:hover {
+    color: #FFFFFF;
+}
+</style>
+<header class="top head">
+<div class="top big">
+    <nav class="top navg1">
+    <div class="top navg01">
+      <h1 style="text-align: center; font-size: 18px; font-family: '微軟正黑體';"><a href="../index.html">回到首頁</a></h1>
+    <p><a href="../index.html">HOMEPAGE</a></p></div>
+    <div class="top navg02">
+      <h1 style="text-align: center; font-size: 18px; font-family: '微軟正黑體';"><a href="../aboutus.html">品牌故事</a></h1>
+    <p><a href="../aboutus.html">ABOUT US</a></p></div>
+    <div class="top navg03"> 
+      <h1 style="text-align: center; font-size: 18px; font-family: '微軟正黑體';"><a href="../news.html">最新消息</a></h1>
+    <p><a href="../news.html">LATES NEWS</a></p></div>
+    <div class="top navg04"> 
+      <h1 style="text-align: center; font-size: 18px; font-family: '微軟正黑體';"><a href="../menu.html">菜單介紹</a></h1>
+    <p><a href="../menu.html">MENU</a></p></div>
+    <div class="top navg05"> 
+      <h1 style="text-align: center; font-size: 18px; font-family: '微軟正黑體';"><a href="../contactus.html">聯絡我們</a></h1>
+    <p><a href="../contactus.html">CONTACT US</a></p></div>
+    </nav>
+	
+	<div class="top head2">
+		<div class="top logo1"><img src="../images/index-img/logo.png" alt="" border="0"/></div>
+	  <div class="top lineeeee"></div>
+ 
+	</div>
+</div>
+  </header>
