@@ -38,8 +38,9 @@ img{
 .wrap{
   max-width: 1920px;
   margin: 0 auto;
-	
 }
+
+
 
 /*--------------首頁------------------*/
 /*輪播圖*/
@@ -817,45 +818,29 @@ img{
 .contactus.row{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 75px;
 	margin-bottom: -450px;
 }
 
-.contactus.folder2{
-    border: 1.5px solid #d9b573;
-    padding-top: 27.5px;
-    padding-bottom: 27.5px;
-    margin-bottom: 39px;
-    margin-right: 219px;
-    padding-right: 351px;
-    padding-left: 351px;
+.contactus.fc1,
+.contactus.fc2,
+.contactus.fc3{
+	border: 1.5px solid #d9b573;
+	padding-right: 70px;
+    padding-bottom: 20px;
+	margin-bottom: 39px;
+	margin-left: 50px;
+	font-size: 30px;
 }
-.contactus.folder3{
+
+.contactus.fc4{
     border: 1.5px solid #d9b573;
-    padding-top: 27.5px;
-    padding-bottom: 27.5px;
-    margin-bottom: 39px;
-    max-width: 500px;
-    padding-right: 351px;
-    padding-left: 351px;
-}
-.contactus.folder4{
-    border: 1.5px solid #d9b573;
-    padding-top: 27.5px;
-    padding-bottom: 27.5px;
-    margin-bottom: 39px;
-    max-width: 500px;
-    padding-right: 351px;
-    padding-left: 351px;
-}
-.contactus.folder5{
-    border: 1.5px solid #d9b573;
-    padding-top: 123px;
-    padding-bottom: 123px;
+	padding-right: 50px;
+    padding-bottom: 160px;
+	margin-right: 288px;
     margin-bottom: 47px;
-    max-width: 500px;
-    padding-right: 351px;
-    padding-left: 351px;
+	margin-left: 50px;
+	font-size: 30px;
 }
 
 .contactus.p,
@@ -866,6 +851,7 @@ img{
 	font-family: "微軟正黑體";
     font-size: 18px;
     padding-bottom: 10px;
+	margin-left: 50px;
 }
 
 .contactus.button{
@@ -878,11 +864,16 @@ img{
     border: 1.5px solid #d9b573;
     border-radius: 0.2cm;
     margin-bottom: 85px;
+	margin-left: 50px;
     max-width: 134px;
 }
 
 .contactus.button{transform:scale(1,1);transition: all 1s ease-out;}
 .contactus.button:hover{transform:scale(1.2,1.2);}
+
+.col-xl-3{
+	margin-left: -80px;
+}
 
 .contactus.material{
     display: flex;
@@ -901,6 +892,7 @@ img{
     color: #000000;
     font-family: "微軟正黑體";
     font-size: 18px;
+    line-height: 22px;
 }
 
 .contactus.map{
