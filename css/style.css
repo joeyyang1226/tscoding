@@ -34,32 +34,10 @@ img{
 }
 
 /*以下是自設定*/
-
-@media only screen and (max-width:480px) {
-	
-}
-@media screen and (min-width:481px){
-    
-}
-@media screen and (min-width:768px){
-    
-}
-@media screen and (min-width:1024px){
-	
-}
-@media screen and (min-width:1280px){
-	
-}
-@media screen and (min-width:1920px){
-	
-}
-
 .wrap{
-  max-width: 1920px;
-  margin: 0 auto;
-	height: 200px;
+	width:1920px;
+	margin: auto;
 }
-
 
 /*--------------首頁------------------*/
 /*輪播圖*/
