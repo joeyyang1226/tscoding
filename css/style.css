@@ -35,7 +35,8 @@ img{
 
 /*以下是自設定*/
 .wrap{
-	width:1920px;
+	width: 100%;
+	max-width: 1920px;
 	margin: auto;
 }
 
@@ -258,7 +259,26 @@ img{
 .top.newsnavg.p{
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;	
 }
+
+@media (max-width: 767px) {
+	.top.big{
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.top.navg1{
+		margin-left:0;
+	}
+	.top.logo1 {
+    margin-top: 0;
+    margin-left: 0px;
+}
+	.top logo1{width: 150px; }
+	    
+}
 /*top end*/
+
+
+
 
 /*品牌故事*/
 .index.flower{
@@ -553,6 +573,11 @@ img{
 	color: #a0a0a0;
 	line-height: 32px;
 }
+.newssup.row{
+	margin-right: inherit;
+    margin-left: inherit;
+    margin-bottom: inherit; 
+}
 .newssup .btn-primary{
 	color: #d9b573;
 	background-color: #fff;
@@ -591,15 +616,6 @@ img{
 	flex:1 1 50%;
 }
 
-@media (min-width: 768px) {
-	.newssup .col-md-4{
-		flex: unset;
-    max-width: unset;
-	}
-}
-@media (max-width: 767px) {
-	.newssup{flex-direction: column;}
-}
 .newssup .card-title{
 	font-size: 24px
 }
@@ -610,6 +626,20 @@ img{
 	line-height: 32px;
 }
 
+@media (min-width: 768px) {
+	.newssup .col-md-4{
+		flex: unset;
+    max-width: unset;
+	}
+}
+@media (max-width: 767px) {
+	.newssup{flex-direction: column;}
+		.newssup .col-xl-4{
+		    width: calc(100%/1 - 48px);
+	}
+	.newssup .card-img-top { flex: 1 0 20%;}
+	.newssup .card-body { flex: 1 0 80%;}
+}
 /*------------news尾巴-------------*/
 
 /*------------menu-------------*/
