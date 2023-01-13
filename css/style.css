@@ -676,7 +676,6 @@ img{
 	margin: 140px 0px 0px 7px;
 }
 /*-------sweet end-------*/
-
 /*-------salty-------*/
 .salty_mainmain{
 	margin-bottom: 200px;
@@ -727,7 +726,6 @@ img{
 	margin: 140px 0px 0px 7px;
 }
 /*-------salty end-------*/
-
 /*-------drink-------*/
 .drink_mainmain{
 	margin-bottom: -370px;
@@ -793,7 +791,7 @@ img{
 .drink_menu_buttem{
     margin-left: -108px;
     position: absolute;
-    top: 3800px;
+    top: 3700px;
 }
 
 .drink_menu_buttem img{transform:scale(1,1);transition: all 1s ease-out;}
