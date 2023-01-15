@@ -574,9 +574,7 @@ img{
 	line-height: 32px;
 }
 .newssup.row{
-	margin-right: inherit;
-    margin-left: inherit;
-    margin-bottom: inherit; 
+    margin: auto;
 }
 .newssup .btn-primary{
 	color: #d9b573;
